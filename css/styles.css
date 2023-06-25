@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;700&family=Roboto:wght@100;300;400;500&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+strong{
+    color: red;
+}
+
+.bg-red{
+    background-color: #B13531;
+}
+
+#seccionCuadrado_texto{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 3rem;
+    color: aliceblue;
+    padding: 1rem;
+    text-align: center;
+}
+
+.contenedor-texto-bienvenida > p{
+    font-size: 1.2rem;
+}
+
+.contenedor-camiseta{
+    max-height: 500px;
+}
+
+.navbar-nav > a, #tituloNavBar, .precio{
+    color: red;
+}
+
+
+.card-title{
+    font-size: 1.5rem;
+    min-height: 4rem;
+    text-align: center;
+}
+
+.textoFooter{
+    color: antiquewhite;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.tituloFooter{
+    font-size: 2rem;
+    color: antiquewhite;
+}
+
+.listaFooter{
+    list-style: none;
+    padding: 0;
+}
+
+.descripcion_Titulo{
+    font-size: 1.7rem;
+}
+
+.descripcion_Texto{
+    font-size: 1.2rem;
+}
+
+#contactoNav{
+    color: antiquewhite;
+}
+
+.card-text{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.gridSection{
+    width: 100%;
+    min-height: 600px;
+    display: grid;
+    margin: auto;
+    gap: 1rem;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.gridSection > div{
+    border-radius: 10px;
+}
+
+.contenedor-imagen-1{
+
+    background-image: url(../img/riverLibertadores-500px.png);
+    background-size: cover;
+
+    background-position: center;
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.contenedor-imagen-2{
+
+    background-image: url(../img/monumental-500x500.png);
+    background-size: cover;
+
+    background-position: center;
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.contenedor-imagen-3{
+
+    background-image: url(../img/monumental-corner-500x500.png);
+    background-size: cover;
+
+    background-position: center;
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.contenedor-imagen-4{
+
+    background-image: url(../img/riverLibertadores-500px-medallas.png);
+    background-size: cover;
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+
+.contenedor_flex{
+    background-color: #B13531;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-imagen{
+    margin: 2rem auto;
+}
+
+.contenedorTexto{
+    margin: auto;
+}
+
+#imagenPortada{
+    width: 100%;
+    margin: 2% 0 2% 0;
+}
+
+@media screen and (min-width:792px) {
+    .contenedor_flex{
+        flex-direction: row;
+    }
+
+    .textoFooter{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    
+    .tituloFooter{
+        font-size: 2.5rem;
+    }
+
+    .card-title{
+        text-align: left;
+    }
+}
+
+@media screen and (min-width:900px) {
+    .gridSection{
+        gap: 1rem;
+    
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    
+    .contenedor-imagen-1{
+    
+        background-image: url(../img/riverLibertadores-500px.png);
+        background-size: cover;
+    
+        background-position: center;
+    
+        grid-column-start: 1;
+        grid-column-end: 3;
+    
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    
+    .contenedor-imagen-2{
+    
+        background-image: url(../img/monumental-500x500.png);
+        background-size: cover;
+    
+        background-position: center;
+    
+        grid-column-start: 3;
+        grid-column-end: 4;
+    
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    
+    .contenedor-imagen-3{
+    
+        background-image: url(../img/monumental-corner-500x500.png);
+        background-size: cover;
+    
+        background-position: center;
+    
+        grid-column-start: 1;
+        grid-column-end: 2;
+    
+        grid-row-start: 3;
+        grid-row-end: 5;
+    }
+    
+    .contenedor-imagen-4{
+    
+        background-image: url(../img/riverLibertadores-500px-medallas.png);
+        background-size: cover;
+    
+        grid-column-start: 2;
+        grid-column-end: 4;
+    
+        grid-row-start: 3;
+        grid-row-end: 5;
+    }
+
+    #imagenPortada{
+        width: 45%;
+        margin: 0 5% 2.5% 0;
+    }
+}
+
+
+
+
+
