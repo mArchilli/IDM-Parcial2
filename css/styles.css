@@ -196,11 +196,17 @@ strong{
 }
 
 .min-h-card{
-    min-height: 600px;
+    min-height: 500px;
 }
 
 .sombra{
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.card-body{
+    display: flex!important;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 /* Estilos personalizados para la barra de desplazamiento */
@@ -227,6 +233,19 @@ strong{
     background-color: #B13531!important;
     border-color: #B13531!important;
 }
+
+.logoRiver{
+    max-width: 500px;
+}
+
+#inputComentario{
+    min-height: 150px;
+}
+
+.form-control{
+    background-color: rgba(0,0,0,0.02)!important;
+}
+
 
 @media screen and (min-width:792px) {
     .contenedor_flex{

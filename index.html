@@ -115,7 +115,7 @@
 
         <div class="col-12 col-md-4 my-2 min-h-card" id="productos">
           <div class="card sombra">
-            <img src="img/Camiseta-Titular-500x500.png" class="card-img-top" alt="Camiseta Titular 22/23">
+            <img src="img/Camiseta-Titular-500x500.png" class="card-img-top px-5 pt-5" alt="Camiseta Titular 22/23">
             <div class="card-body">
               <h2 class="card-title">Camiseta Titular River Plate 22/23</h2>
               <h3 class="precio">$ 45.000</h3>
@@ -127,7 +127,7 @@
 
         <div class="col-12 col-md-4 my-2 min-h-card">
           <div class="card sombra">
-            <img src="img/Camiseta-alternativa-500x500.png" class="card-img-top" alt="Camiseta Alternativa 22/23">
+            <img src="img/Camiseta-alternativa-500x500.png" class="card-img-top px-5 pt-5" alt="Camiseta Alternativa 22/23">
             <div class="card-body">
               <h2 class="card-title">Camiseta Alternativa 22/23</h2>
               <h3 class="precio">$ 40.000</h3>
@@ -139,14 +139,14 @@
 
         <div class="col-12 col-md-4 my-2 min-h-card">
           <div class="card sombra">
-            <img src="img/Camiseta-alternativaMujer-500x500.png" class="card-img-top" alt="Camiseta Alternativa Mujer 23/24">
+            <img src="img/Camiseta-alternativaMujer-500x500.png" class="card-img-top px-5 pt-5" alt="Camiseta Alternativa Mujer 23/24">
             <div class="card-body">
               <h2 class="card-title">Camiseta Tercer Uniforme Mujer 23/24</h2>
               <h3 class="precio">$ 49.999</h3>
               <p class="card-text">La favorita de los hinchas vuelve a las canchas. Con la característica banda roja de la camiseta titular de River Plate, esta camiseta del tercer uniforme de adidas está inspirada en un look conocido y adorado.
               Creada para envolver a los hinchas del equipo en comodidad, esta camiseta incorpora tecnología de absorción AEROREADY y un escudo tejido premium.
                 Los detalles asimétricos como las 3 Tiras en dos tonos en los hombros le dan el toque final al look.</p>
-              <a href="producto.html" class="btn btn-primary bg-red w-100">Comprar</a>
+              <a href="producto.html" class="btn btn-primary bg-red w-100 ">Comprar</a>
             </div>
           </div>
         </div>
@@ -264,40 +264,40 @@
         <h2>Ponete en contacto con nosotros!</h2>
       </div>
 
-      <div class="row">
-        <div class="col-12 col-md-4 d-none d-md-block">
+      <div class="row my-5 justify-content-center">
+        <div class="col-12 col-md-7 d-none d-md-block logoRiver">
           <div class="h-100 w-100 d-flex justify-content-center align-items-center">
             <img src="img/Escudo_del_C_A_River_Plate.svg.png" class="card-img-top w-50" alt="Escudo_River_Plate">
           </div>
           
         </div>
 
-        <div class="col-12 col-md-8" id="contacto">
-          <form>
-            <div class="mb-3">
+        <div class="col-12 col-md-5" id="contacto">
+          <form class="row">
+            <div class="col-12 col-lg-6 mb-3">
               <label for="InputName" class="form-label">Nombre completo</label>
-              <input type="text" class="form-control" id="InputName" required >
+              <input type="text" class="form-control" id="InputName" name="nombre" required >
             </div>
 
-            <div class="mb-3">
-              <label for="InputPhone" class="form-label">Telefono</label>
-              <input type="number" class="form-control" id="InputPhone" min="1" maxlength="10" required >
-            </div>
-
-            <div class="mb-3">
+            <div class="col-12 col-lg-6 mb-3">
               <label for="InputEmail" class="form-label">Correo Electronico</label>
-              <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" required>
+              <input type="email" class="form-control" id="InputEmail" name="correo" aria-describedby="emailHelp" required>
               <div id="emailHelp" class="form-text">ejemplo@ejemplo.com</div>
             </div>
 
             <div class="mb-3">
+              <label for="InputPhone" class="form-label">Telefono</label>
+              <input type="text" class="form-control" id="InputPhone" name="telefono" required >
+            </div>
+
+            <div class="mb-3">
               <label for="inputComentario" class="form-label">Mensaje</label>
-              <textarea name="inputComentario" class="form-control" id="inputComentario" cols="30" rows="2" required></textarea>
+              <textarea name="inputComentario" class="form-control" id="inputComentario" name="comentario" required></textarea>
             </div>
 
             <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="checkTerminos" required>
-              <label class="form-check-label" for="checkTerminos">Acepto los terminos y condiciones</label>
+              <input type="checkbox" class="form-check-input" id="checkTerminos" name="newsletter">
+              <label class="form-check-label" for="checkTerminos">Quiero inscribirme al Newsletter</label>
             </div>
 
             <button type="submit" class="btn btn-primary bg-red w-100">Enviar</button>
