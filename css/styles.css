@@ -209,6 +209,15 @@ strong{
     justify-content: space-around;
 }
 
+.accordion-button:not(.collapsed){
+    color: #B13531!important;
+    background-color: #84202917!important;
+}
+
+.accordion-button:focus{
+    box-shadow: 0 0 0 0.25rem #84202957!important;
+}
+
 /* Estilos personalizados para la barra de desplazamiento */
 ::-webkit-scrollbar {
   width: 5px;
