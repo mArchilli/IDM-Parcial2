@@ -223,6 +223,11 @@ strong{
   scrollbar-width: thin;
 }
 
+#checkTerminos:checked{
+    background-color: #B13531!important;
+    border-color: #B13531!important;
+}
+
 @media screen and (min-width:792px) {
     .contenedor_flex{
         flex-direction: row;
