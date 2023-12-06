@@ -275,33 +275,35 @@
 
         <div class="col-12 col-md-5" id="contacto">
           <form class="row">
-            <div class="col-12 col-lg-6 mb-3">
+            <div class="col-12 col-md-6 mb-3">
               <label for="InputName" class="form-label">Nombre completo</label>
               <input type="text" class="form-control" id="InputName" name="nombre" required >
             </div>
 
-            <div class="col-12 col-lg-6 mb-3">
+            <div class="col-12 col-md-6 mb-3">
+              <label for="InputPhone" class="form-label">Telefono</label>
+              <input type="text" class="form-control" id="InputPhone" name="telefono" required >
+            </div>
+
+            <div class="col-12  mb-3">
               <label for="InputEmail" class="form-label">Correo Electronico</label>
               <input type="email" class="form-control" id="InputEmail" name="correo" aria-describedby="emailHelp" required>
               <div id="emailHelp" class="form-text">ejemplo@ejemplo.com</div>
             </div>
 
-            <div class="mb-3">
-              <label for="InputPhone" class="form-label">Telefono</label>
-              <input type="text" class="form-control" id="InputPhone" name="telefono" required >
-            </div>
-
-            <div class="mb-3">
+            <div class="col-12 mb-3">
               <label for="inputComentario" class="form-label">Mensaje</label>
               <textarea name="inputComentario" class="form-control" id="inputComentario" name="comentario" required></textarea>
             </div>
 
-            <div class="mb-3 form-check">
+            <div class="col-12 mb-3 form-check">
               <input type="checkbox" class="form-check-input" id="checkTerminos" name="newsletter">
               <label class="form-check-label" for="checkTerminos">Deseo recibir ofertas y novedades por correo</label>
             </div>
 
-            <button type="submit" class="btn btn-primary bg-red w-100">Enviar</button>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary bg-red w-100">Enviar</button>
+            </div>
           </form>
         </div>
       </div>
