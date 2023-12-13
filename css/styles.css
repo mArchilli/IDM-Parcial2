@@ -5,7 +5,18 @@
 }
 
 strong{
-    color: red;
+    color: #B13531;
+}
+
+.form-control:focus {
+    border-color: #B13531!important;  /* Cambia el color del borde al rojo en estado de enfoque */
+    box-shadow: 0 0 0 0.2rem #B13531 !important; /* Cambia el color del resplandor (box shadow) al rojo en estado de enfoque */
+}
+
+.btn:active,
+.btn:focus {
+    border-color: #B13531!important; /* Cambia el color del borde al rojo en estado activo y en estado de enfoque */
+    box-shadow: 0 0 0 0.2rem #B13531!important; /* Cambia el color del resplandor (box shadow) al rojo en estado activo y en estado de enfoque */
 }
 
 .bg-red{
@@ -22,7 +33,7 @@ strong{
 .bg-red:hover{
     background-color: white;
     color: #B13531;
-    border: 1px solid red;
+    border: 1px solid #B13531;
 }
 
 .btn-primary:active{
@@ -52,7 +63,7 @@ strong{
 }
 
 .navbar-nav > a, #tituloNavBar, .precio{
-    color: red;
+    color: #B13531;
 }
 
 .card-title{
