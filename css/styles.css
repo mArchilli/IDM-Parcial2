@@ -8,15 +8,21 @@ strong{
     color: #B13531;
 }
 
+.navbar{
+    box-shadow: 1px 6px 12px -2px rgba(0,0,0,0.50);
+    -webkit-box-shadow: 1px 6px 12px -2px rgba(0,0,0,0.50);
+    -moz-box-shadow: 1px 6px 12px -2px rgba(0,0,0,0.50);
+}
+
 .form-control:focus {
-    border-color: #B13531!important;  /* Cambia el color del borde al rojo en estado de enfoque */
-    box-shadow: 0 0 0 0.2rem #B13531 !important; /* Cambia el color del resplandor (box shadow) al rojo en estado de enfoque */
+    border-color: #B13531!important;  
+    box-shadow: 0 0 0 0.2rem #B13531 !important; 
 }
 
 .btn:active,
 .btn:focus {
-    border-color: #B13531!important; /* Cambia el color del borde al rojo en estado activo y en estado de enfoque */
-    box-shadow: 0 0 0 0.2rem #B13531!important; /* Cambia el color del resplandor (box shadow) al rojo en estado activo y en estado de enfoque */
+    border-color: #B13531!important; 
+    box-shadow: 0 0 0 0.2rem #B13531!important; 
 }
 
 .bg-red{
